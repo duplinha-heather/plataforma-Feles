@@ -1,0 +1,123 @@
+@import url(global.css);
+
+body {
+    background: #FEFFE9;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background: var(--purple-primary);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 36px;
+    color: var(--blue-primary);
+    letter-spacing: 2px;
+    font-family: "Gasoek One", sans-serif;
+}
+header .btn-enter {
+    background: var(--yellow-primary);
+    font-family: "Inter", sans-serif;
+    padding: 6px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Container geral */
+.login-container {
+    margin: 40px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 18px;
+}
+
+/* Área do formulário */
+.login-box {
+    background: var(--purple-light);
+    padding: 40px;
+    width: 50%;
+    border-radius: 18px 0 0 18px;
+    font-family: "Inter", sans-serif;
+}
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.google-btn {
+    background: var(--blue-primary);
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+    .label-email {
+        font-weight: bold;
+        margin-top: 20px;
+        display: block;
+        font-size: 16px;
+    }
+
+    .input-email {
+        width: 100%;
+        padding: 10px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 12px;
+        background: #a3d5d6;
+    }
+
+    .btn-login {
+        background: #f0ffb4;
+        width: 100%;
+        padding: 12px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    /* Painel lateral */
+    .welcome-box {
+        background: #62a3b8;
+        width: 50%;
+        border-radius: 0 18px 18px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #b636a8;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    /* Erro */
+    .erro {
+        background: #ffb5b5;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
