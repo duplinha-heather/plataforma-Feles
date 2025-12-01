@@ -99,6 +99,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <label class="label">Senha:</label>
             <input type="password" name="senha" class="input" placeholder="Crie uma senha">
 
+            <div class="termos">
+                <input type="checkbox" name="termo" id="">
+                Li e aceito os<a href="#">Termos e políticas de privaciade.</a>
+            </div>
+
             <button class="btn-submit">Registrar</button>
         </form>
 

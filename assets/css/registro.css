@@ -68,6 +68,12 @@ header .btn-enter {
     display: block;
     font-size: 16px;
 }
+.termos{
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+}
 .btn-submit {
     background: var(--yellow-primary);
     width: 100%;
