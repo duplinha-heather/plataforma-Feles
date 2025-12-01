@@ -53,7 +53,6 @@ header .btn-enter {
     font-size: 22px;
     text-align: center;
 }
-
 .google-btn {
     background: var(--blue-primary);
     color: black;
@@ -69,55 +68,53 @@ header .btn-enter {
     justify-content: center;
     gap: 8px;
 }
+.label-email {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+}
+.input-email {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background: var(--blue-primary);
+}
+.btn-login {
+    background: var(--yellow-primary);
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
 
-    .label-email {
-        font-weight: bold;
-        margin-top: 20px;
-        display: block;
-        font-size: 16px;
-    }
+/* Painel lateral */
+.welcome-box {
+    background: var(--blue-primary);
+    width: 50%;
+    border-radius: 0 18px 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple-primary);
+    font-size: 40px;
+    font-family: "Gasoek One", sans-serif;
+}
 
-    .input-email {
-        width: 100%;
-        padding: 10px;
-        border-radius: 12px;
-        border: none;
-        margin-top: 5px;
-        margin-bottom: 12px;
-        background: #a3d5d6;
-    }
-
-    .btn-login {
-        background: #f0ffb4;
-        width: 100%;
-        padding: 12px;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
-        font-weight: bold;
-        margin-top: 10px;
-        font-size: 16px;
-    }
-
-    /* Painel lateral */
-    .welcome-box {
-        background: #62a3b8;
-        width: 50%;
-        border-radius: 0 18px 18px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #b636a8;
-        font-size: 40px;
-        font-weight: bold;
-    }
-
-    /* Erro */
-    .erro {
-        background: #ffb5b5;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-weight: bold;
-    }
+/* Erro */
+.erro {
+    font-family: "Inter", sans-serif;
+    background: #ffb5b5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
