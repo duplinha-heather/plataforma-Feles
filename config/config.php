@@ -1,7 +1,7 @@
 <?php
 // CONFIGURAÇÃO DO BANCO DE DADOS
 $host = "localhost";
-$dbname = "feles";
+$dbname = "feles_platform";
 $user = "root";     // altere se necessário
 $pass = "";         // altere se necessário
 
