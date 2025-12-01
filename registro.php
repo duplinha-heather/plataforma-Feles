@@ -60,134 +60,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <meta charset="UTF-8">
 <title>Registrar - FELÉS</title>
 
-<style>
-    body {
-        background: #f7f8da;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    /* Topbar */
-    .topbar {
-        background: #b24bb0;
-        padding: 12px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .topbar .logo {
-        font-size: 36px;
-        font-weight: bold;
-        color: #6ad0e3;
-        letter-spacing: 2px;
-    }
-
-    .topbar .btn-enter {
-        background: #f0ffb4;
-        padding: 6px 16px;
-        border-radius: 8px;
-        border: none;
-        cursor: pointer;
-        font-weight: bold;
-    }
-
-    /* Container geral */
-    .login-container {
-        margin: 40px auto;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        border-radius: 18px;
-    }
-
-    /* Área do formulário */
-    .login-box {
-        background: #dbb4dd;
-        padding: 40px;
-        width: 50%;
-        border-radius: 18px 0 0 18px;
-    }
-
-    .login-box h2 {
-        margin-bottom: 20px;
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .input {
-        width: 100%;
-        padding: 10px;
-        border-radius: 12px;
-        border: none;
-        background: #a3d5d6;
-        margin-bottom: 12px;
-    }
-
-    .label {
-        font-weight: bold;
-        margin-top: 10px;
-        display: block;
-        font-size: 16px;
-    }
-
-    .btn-submit {
-        background: #f0ffb4;
-        width: 100%;
-        padding: 12px;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
-        font-weight: bold;
-        margin-top: 10px;
-        font-size: 16px;
-    }
-
-    /* Painel lateral */
-    .welcome-box {
-        background: #62a3b8;
-        width: 50%;
-        border-radius: 0 18px 18px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #b636a8;
-        font-size: 40px;
-        font-weight: bold;
-    }
-
-    /* Erro e sucesso */
-    .erro {
-        background: #ffb5b5;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-weight: bold;
-    }
-
-    .sucesso {
-        background: #b1ffb5;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-weight: bold;
-    }
-</style>
+<link rel="stylesheet" href="assets/css/registro.css">
 </head>
 
 <body>
 
 <!-- Topo com logo -->
-<div class="topbar">
-    <div class="logo">FELES</div>
-    <a href="login.php">
-        <button class="btn-enter">Entrar</button>
-    </a>
-</div>
+    <header>
+        <div class="logo">FELES</div>
+        <a href="login.php">
+            <button class="btn-enter">Entrar</button>
+        </a>
+    </header>
 
 <div class="login-container">
     
@@ -226,6 +110,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
 
 </div>
+
+    <footer>
+        <div id="copyright">
+            &#169
+            2026
+            FELES
+        </div>
+    </footer>
 
 </body>
 </html>
