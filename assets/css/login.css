@@ -118,3 +118,16 @@ header .btn-enter {
     text-align: center;
     font-weight: bold;
 }
+
+/* FOOTER */
+#copyright{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    padding: 25px;
+    background-color: var(--purple-primary);
+    color: white;
+    font-family: "Inter", sans-serif;
+}

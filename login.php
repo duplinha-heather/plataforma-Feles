@@ -84,10 +84,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     </div>
 
-    <footer id="copyright">
-
-        2026
-        FELES
+    <footer>
+        <div id="copyright">
+            &#169
+            2026
+            FELES
+        </div>
     </footer>
 
 </body>
