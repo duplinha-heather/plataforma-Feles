@@ -1,0 +1,12 @@
+/*font-family: "Gasoek One", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+/*font-family: "Inter", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --purple-primary: #A747A4;
+    --purple-light: #DDBCDC;
+    --yellow-primary: #EFF4A9;
+    --blue-primary: #60A5B8;
+}
