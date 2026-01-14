@@ -31,7 +31,7 @@ header .btn-enter {
 
 /* Container geral */
 .login-container {
-    margin: 40px auto;
+    margin: 20px auto;
     width: 80%;
     display: flex;
     justify-content: center;
