@@ -10,3 +10,9 @@
     --yellow-primary: #EFF4A9;
     --blue-primary: #60A5B8;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
